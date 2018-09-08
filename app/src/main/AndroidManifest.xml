@@ -1,15 +1,24 @@
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sqisland.android.hello">
-  <application
-      android:label="@string/app_name">
-    <activity
-        android:name=".MainActivity"
+
+    <application
+        android:allowBackup="true"
         android:label="@string/app_name">
-      <intent-filter>
-        <action android:name="android.intent.action.MAIN"/>
-        <category android:name="android.intent.category.LAUNCHER"/>
-      </intent-filter>
-    </activity>
-  </application>
+        <activity
+            android:name=".Activity_log_in"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_register"
+            android:label="@string/second_display">
+            <!--android:parentActivityName=".Activity_log_in"> &lt;!&ndash;allows to return back to the specified screen&ndash;&gt;-->
+        </activity>
+    </application>
+
 </manifest>

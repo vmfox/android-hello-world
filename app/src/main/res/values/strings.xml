@@ -1,4 +1,19 @@
 <resources>
-  <string name="app_name">Hello World</string>
-  <string name="hello_world">Hello world!</string>
+  <string name="app_name">The app</string>
+
+  <!--log-in screen-->
+  <string name="login_button">Log-in button</string>
+  <string name="to_register_button">Register button</string>
+
+
+  <!--register screen -->
+  <string name="second_display">Second</string>
+  <string name="register_button">Register button</string>
+  <string name="register_password">Register button</string>
+
+
+  <!-- Action Bar strings -->
+  <string name="action_search">Search</string>
+  <string name="search">Search new</string>
+
 </resources>
