@@ -5,6 +5,8 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name">
+
+        <!--log_in activity-->
         <activity
             android:name=".Activity_log_in"
             android:label="@string/app_name">
@@ -14,10 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--register activity-->
         <activity
             android:name=".Activity_register"
             android:label="@string/second_display">
-            <!--android:parentActivityName=".Activity_log_in"> &lt;!&ndash;allows to return back to the specified screen&ndash;&gt;-->
+            <!-- android:parentActivityName=".Activity_log_in"> &lt;!&ndash;allows to return back to the specified screen&ndash;&gt; -->
+        </activity>
+
+        <!--main view activity-->
+        <activity
+            android:name=".Activity_main_view"
+            android:label="@string/main_view_screen">
+
         </activity>
     </application>
 
