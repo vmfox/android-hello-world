@@ -31,4 +31,5 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:22.+'
     implementation 'com.android.support.constraint:constraint-layout:+'
     implementation 'com.android.support:design:22.+'
+    implementation 'com.android.support:gridlayout-v7:22.+'
 }

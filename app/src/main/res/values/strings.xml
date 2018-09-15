@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">The app</string>
+    <string name="d_log_in">The app</string>
 
     <!--log-in screen-->
     <string name="login_button">Log-in button</string>
@@ -7,7 +7,7 @@
 
 
     <!--register screen -->
-    <string name="second_display">Register</string>
+    <string name="d_register">Register</string>
     <string name="register_button">Register button</string>
     <string name="register_password"></string>
 
@@ -18,5 +18,11 @@
 
 
     <!--main view activity-->
-    <string name="main_view_screen">Main view</string>
+    <string name="d_main_view">Main view</string>
+    <string name="add_text_button">OK</string>
+
+
+    <!--list view and subpages-->
+    <string name="d_list_view">List item</string>
+    <string name="return_back">"Return"</string>
 </resources>
