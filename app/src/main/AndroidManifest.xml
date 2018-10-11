@@ -28,15 +28,14 @@
         <!-- main view activity -->
         <activity
             android:name=".Activity_main_view"
-            android:label="@string/d_main_view">
-        </activity>
+            android:label="@string/d_main_view"></activity>
 
-        <!--view item list-->
+        <!-- view item list -->
         <activity
             android:name=".ListItem"
             android:label="@string/d_list_view">
         </activity>
-
+        
     </application>
 
 </manifest>
